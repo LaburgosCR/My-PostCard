@@ -1,0 +1,36 @@
+#container{
+    display: block;
+    justify-content: center;
+    width: 40%;
+    margin: auto;  
+    border: solid gray;
+}
+h1{
+    width: 80%;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+img{
+    height:80px;
+}
+.cuerpo{
+    display: flex;
+}
+.btn{
+    justify-content: center;
+    display: flex;
+}
+.titulo, .cuerpo, .btn{
+    margin: 10px;
+}
+.cuerpo_input, .cuerpo_text{
+    margin: 5px;
+}
+.form{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+}
+
